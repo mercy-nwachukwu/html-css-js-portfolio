@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Mercy Nwachukwu</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <nav id="hamburger-nav">
+        <div id="logo">M</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/1.png" alt="Mercy Nwachukwu profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Mercy 👋🏾</h1>
+            <p class="section__text__p2">Analytics Engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/mercy-n.pdf')"> Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'"> Contact </button>
+
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/mercy-n/'">
+
+                <img src="./assets/github.png" alt="My LinkedIn Profile"
+                class="icon" onclick="location.href='https://github.com/mercy-nwachukwu/'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Who Am I?</p>
+        <h1 class="title"> About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container ">
+                <img src="./assets/3.png" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>3+ years <br>Data & Analytics</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education Icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.A Bachelors Degree <br>M.Sc. Masters Degree</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius voluptatibus dolores aliquid eaque. Quod, fuga. Possimus numquam ratione recusandae temporibus molestias. Cupiditate, optio ipsam! Repellendus, temporibus iure deserunt dolores accusamus neque dignissimos assumenda adipisci accusantium veniam corporis excepturi aperiam nisi eius et ipsam inventore. Maxime temporibus asperiores debitis eveniet vero.</p>
+                </div>
+            </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="Arrow Icon" class="icon arrow" 
+        onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">What I Do Best</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Data & Analytics</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon" class="icon">
+                            <div>
+                                <h3>Data Analysis & Wrangling</h3>
+                                <p>Python, SQL, Excel</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon" class="icon">
+                            <div>
+                                <h3>Machine Learning</h3>
+                                <p>Sklearn, SciPy, PyTorch</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon" class="icon">
+                            <div>
+                                <h3>Data Visualization & Storytelling</h3>
+                                <p>PowerBI, Tableau, Matplotlib</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon" class="icon">
+                            <div>
+                                <h3>Cloud computing</h3>
+                                <p>AWS, Google Cloud Platform, Azure</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon" class="icon">
+                            <div>
+                                <h3>Database Management</h3>
+                                <p>MySQL, PHPMyAdmin, Neo4j</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon" class="icon">
+                            <div>
+                                <h3>Statistical Analysis</h3>
+                                <p>T-Test, Chi-Squared Test, Anova</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon" class="icon">
+                            <div>
+                                <h3>Excellent Communication</h3>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon" class="icon">
+                            <div>
+                                <h3>Stakeholder Collaboration</h3>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon" class="icon">
+                            <div>
+                                <h3>Teamwork and Collaboration</h3>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon" class="icon">
+                            <div>
+                                <h3>Continuous Learning</h3>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon" class="icon">
+                            <div>
+                                <h3>Time Management</h3>
+
+                            </div>
+                        </article>
+
+                        <article>
+                            <img 
+                            src="./assets/checkmark.png" 
+                            alt="experience icon" class="icon">
+                            <div>
+                                <h3>Creativity and Adaptability</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="Arrow Icon" class="icon arrow" 
+        onclick="location.href='./#projects'">
+    </section>
+
+    <section id="Projects">
+        <p class="section__text__p1">Browse My Projects</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./assets/project-1.png" 
+                    alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title"> Workout Prediction </h2>
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://github.com/mercy-nwachukwu/workout-prediction'">
+                        Github
+                    </button>
+
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://github.com/mercy-nwachukwu/workout-prediction'">
+                        project 
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./assets/project-2.png" 
+                    alt="Project 2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title"> Airline Review Analysis </h2>
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://github.com/mercy-nwachukwu/workout-prediction'">
+                        Tableau 
+                    </button>
+
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://github.com/mercy-nwachukwu/workout-prediction'">
+                        Project 
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./assets/project-1.png" 
+                    alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title"> Prediction models</h2>
+                <div class="btn-container">
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://github.com/mercy-nwachukwu/workout-prediction'">
+                        Github
+                    </button>
+
+                    <button 
+                    class="btn btn-color-2 project-btn"
+                     onclick="location.href='https://github.com/mercy-nwachukwu/workout-prediction'">
+                        Live demo 
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="Arrow Icon" class="icon arrow" 
+        onclick="location.href='./#Projects'">
+    </section>
+    <section id="contacts">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" 
+                alt="Email Icon" 
+                class="icon contact-icon email-icon">
+                <p><a href="malito:nwachukwu.cmercy@gmail.com">Email</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" 
+                alt="LinkedIn Icon" class="icon contact-icon">
+                <p><a href="https://linkedin.com/mercy-n/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Mercy N. All Rights Reserved  </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
